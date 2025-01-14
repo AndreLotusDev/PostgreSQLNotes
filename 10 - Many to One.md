@@ -2,8 +2,8 @@
 aliases:
   - 10 - One to One | Many to One
 tags: 
-date created: segunda-feira, dezembro 16º 2024, 10:16:49 am
-date modified: segunda-feira, dezembro 16º 2024, 10:22:14 am
+date created: Monday, December 16th 2024, 10:16:49 am
+date modified: Tuesday, January 7th 2025, 7:37:30 am
 ---
 O relacionamento um para muitos acontece quando um lado da tabela é mais forte que o outro.
 
