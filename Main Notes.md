@@ -1,8 +1,8 @@
 ---
 aliases: 
 tags: 
-date created: sexta-feira, dezembro 13º 2024, 3:57:24 pm
-date modified: sexta-feira, dezembro 13º 2024, 4:14:46 pm
+date created: Friday, December 13th 2024, 3:57:24 pm
+date modified: Wednesday, January 22nd 2025, 3:13:25 pm
 ---
 - Nem por que todo banco SQL é SQL eles tem 100% de compatibilidade, algumas vezes eles terão algumas diferenças que tornam eles únicos, claro que eles tentam sempre seguir os padrões e convenções SQL, todavia contendo pequenas peculiaridades que os tornam distintos um dos outros.
 	- Como por exemplo o banco oracle, que é muito distinto dos demais bancos SQL.
