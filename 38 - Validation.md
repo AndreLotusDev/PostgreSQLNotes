@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Friday, January 24th 2025, 9:06:45 am
-date modified: Friday, January 24th 2025, 11:46:05 am
+date modified: Monday, January 27th 2025, 9:41:56 pm
 ---
 Temos algumas formas de se validar a nível de linha (row) uma tabela de banco de dados, tais quais:
 
@@ -44,5 +44,9 @@ add check (dispatched < delivered);
 insert into deliverable (dispatched, delivered) values (now(), NOW() - INTERVAL '1 day');
 ```
 
+---
 
+- Regras a cerca de validações do valores que provavelmente irão mudar constantemente: não fazer do lado do banco de dados.
+- Regras de validação do valor que são muito complexas: não fazer do lado do banco de dados.
+- Nós queremos ter certeza que o valor correto está inserido ou valores de dominio: Insira validação no banco de dados.
 
